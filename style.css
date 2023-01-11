@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'andarilho';
+    src: url(./assets/fontes/andarilho-font.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "andarilho";
+}
+.body{
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: column;
+}
+
+.navegacao{
+ height: 10rem;
+ width: 100%;
+ border: 1px solid black;
+ display: grid;
+ grid-template-columns:  50% auto;
+ background-color: black;
+ padding-left: 4rem;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(1, 255, 1);
+    font-size: 1.5rem;
+    font-style: bold;
+}
+
+#nav{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    align-items: center;
+    padding-left: 8rem;
+}
+
+#logo{
+    max-width: 150px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.video{
+    height: 50rem;
+    background-image: url(./assets/foto-saturada.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+#video{
+    margin: 0 auto;
+}
+
+.containerMainSobreIntegra{
+    height: 200rem;
+    background-image: url(./assets/background.png);
+    display: flex;
+    flex-direction: column;
+    height: 70rem;
+    padding-top: 5rem;
+    align-items: center;
+    align-content: CENTER;
+    width: 100%;
+}
+.sobre{
+    color: rgba(255, 255, 255, 0.974);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sobre{
+    margin: 0 auto;
+    color: rgb(1, 255, 1);
+    font-size: 2.8rem;
+}
+
+.textosobre{
+    padding-top: 2%;
+    font-weight: bold;
+    text-align: justify;
+    align-content: center;
+    width: 70%;
+    font-size: 1.2rem;
+    margin: 0 auto;;
+}
+
+#paragrafoSobre{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1%;
+}
+
+.integrantesClass{
+    margin: 0 auto;
+    color: rgb(1, 255, 1);
+    font-size: 2.8rem;
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3{
+    margin: 0 AUTO;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2REM;
+}
+
+h4,h5{
+    margin: 0 AUTO;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2REM;
+    font-family: roboto ;
+}
+
+.creu{
+    width: 400px;
+    height: 500px;
+    margin-top: 1rem;
+}
+.creu:hover{
+    background-color: rgba(9, 118, 9, 0.394);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+
